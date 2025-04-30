@@ -1,0 +1,103 @@
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+    height: auto;
+    min-height: 100vh;
+  }
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+  .nav-brand {
+    font-size: 1.2rem;
+  }
+  .nav-links {
+    gap: 1rem;
+  }
+  .nav-links a {
+    font-size: 0.8rem;
+  }
+  .project-heading {
+    padding: 4rem 0 1rem 0;
+  }
+  .project-heading h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+  }
+  .project-heading p {
+    font-size: 0.9rem;
+  }
+  .main-content {
+    padding: 0.5rem 0;
+    justify-content: flex-start;
+  }
+  .slider {
+    height: 40vh;
+    margin: 0.5rem 0;
+  }
+  .card {
+    width: 85vw;
+    height: 30vh;
+    font-size: 1.2rem;
+    overflow: hidden;
+  }
+
+  /* Media specific adjustments for mobile */
+  .card img,
+  .card video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .project-info-container {
+    width: 100vw;
+    margin: 0.5rem 0;
+    gap: 5rem;
+    flex-direction: row;
+  }
+  .project-title {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .tech-stack {
+    font-size: 0.8rem;
+  }
+  .dots-container {
+    margin: 0.5rem 0;
+  }
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+  .bottom-navigation {
+    width: 90vw;
+    margin: 0.5rem 0;
+    gap: 1rem;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .explore-button {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+  }
+  .nav-buttons {
+    width: 100%;
+    justify-content: center;
+  }
+  .nav-button {
+    width: 38px;
+    height: 38px;
+    font-size: 1rem;
+  }
+  /* Completely disable hover/active states on mobile */
+  .nav-button:hover,
+  .nav-button:active {
+    background: rgba(255, 255, 255, 0.1);
+    transform: none;
+    box-shadow: none;
+  }
+}

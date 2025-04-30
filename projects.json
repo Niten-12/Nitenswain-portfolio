@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Task Manager",
+    "stack": "Vue.js, Firebase",
+    "mediaType": "image",
+    "mediaUrl": "./images/Screenshot 2025-04-03 190213.png",
+    "projectUrl": "https://example.com/task-manager"
+  },
+  {
+    "id": 2,
+    "name": "E-Commerce App",
+    "stack": "React, Node.js",
+    "mediaType": "video",
+    "mediaUrl": "./videos/project video .mp4",
+    "projectUrl": "https://example.com/ecommerce"
+  },
+  {
+    "id": 3,
+    "name": "Hospital Management",
+    "stack": "React, PHP",
+    "mediaType": "image",
+    "mediaUrl": "./images/Screenshot 2025-04-03 230025.png",
+    "projectUrl": "#"
+  }
+]
