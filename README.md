@@ -7,6 +7,10 @@ screenshots
 ![Screenshot 2025-04-30 153758](https://github.com/user-attachments/assets/0105da0a-35ee-4a05-9ea2-55ab1cfed0d0)
 ![Screenshot 2025-04-30 153815](https://github.com/user-attachments/assets/6a600991-9bef-4f59-9c61-02f8bc20b3ff)
 
-updates
-Upcoming changes will focus on performance and UI improvements.
-Currently in development. The live version will be available shortly.
+
+#updates
+
+
+
+1)Upcoming changes will focus on performance and UI improvements.                                                                                                                                                        
+2)Currently in development. The live version will be available shortly.
