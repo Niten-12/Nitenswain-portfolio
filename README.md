@@ -13,4 +13,4 @@ screenshots
 
 
 1)Upcoming changes will focus on performance and UI improvements.                                                                                                                                                        
-2)Currently in development. The live version will be available shortly.
+2)Currently in development. https://niten-12.github.io/Nitenswain-portfolio/
