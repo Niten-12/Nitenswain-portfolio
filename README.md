@@ -1,16 +1,53 @@
-# Nitenswain-portfolio
+ ****Personal Portfolio Website – A fully responsive, interactive, and animated portfolio website showcasing my work, skills, and experience.****<br/>
+
+
+
+## 🚀 Tech Stack  💡 Features
+1. ##### **HTML5** –   <small>*Semantic structure of the webpage*</small>
  
-screenshots
-![Screenshot 2025-04-30 153637](https://github.com/user-attachments/assets/4b3e0e4d-cc00-4857-a85a-479717be8733)
-![Screenshot 2025-04-30 153702](https://github.com/user-attachments/assets/b43bf537-c570-41be-a7d5-0ab9a894c98a)
-![Screenshot 2025-04-30 153724](https://github.com/user-attachments/assets/6b6b4f0f-231a-4933-8683-57071a81d749)
-![Screenshot 2025-04-30 153758](https://github.com/user-attachments/assets/0105da0a-35ee-4a05-9ea2-55ab1cfed0d0)
-![Screenshot 2025-04-30 153815](https://github.com/user-attachments/assets/6a600991-9bef-4f59-9c61-02f8bc20b3ff)
+2. **Tailwind CSS + Custom CSS** – <small>*Responsive layouts using Flexbox/Grid*</small>
+ 
+3. **JavaScript (ES6+)** – <small>*Dynamic content & interactivity*</small>
+ 
+4. **GSAP (GreenSock Animation Platform)** – <small>*Smooth and advanced animations*</small>
+
+5. **AOS (Animate on Scroll)** – <small>*Scroll-based animations*</small>
+
+6. **Locomotive Scroll (Upcoming)** – <small>*Smooth scrolling and parallax effects*</small>
+ 
+7. #### **Backend Integration (Upcoming)** –  <small>*Connection with APIs for contact form & project data`*</small>
 
 
-#updates
+<br/>
+
+## 📚 Sections Included
+Intro Section – Short welcome and personal introduction
+
+Education & Skills – Academic background and technical skills
+
+Experience – Work and internship experiences
+
+Projects – Highlighted projects with links
+
+Contact – Contact form and social media links
+
+(More UI improvements and sections coming soon)
+
+<br/>
+<br/>
+
+## 🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+
+<br/>
+<br/>
+
+# 🔗 Live Preview 💼 Nitenswain Portfolio
+👉 Click here to view the portfolio
 
 
+[![Live Preview](https://img.shields.io/badge/Live--Demo-Click%20Here-blue?style=for-the-badge)](https://niten-12.github.io/Nitenswain-portfolio/)
 
-1)Upcoming changes will focus on performance and UI improvements.                                                                                                                                                        
-2)Currently in development. https://niten-12.github.io/Nitenswain-portfolio/
+A modern, responsive, and animated personal portfolio built using HTML5, Tailwind CSS, JavaScript, GSAP, and more.
+
+
