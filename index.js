@@ -287,9 +287,10 @@ function adjustDownloadPosition() {
 
 // File download function
 function downloadFile(fileName) {
-  if (!["resume.pdf", "cv.pdf"].includes(fileName)) return;
+  if (!["Niten swain_Resume.pdf", "Niten Swain_CV.pdf"].includes(fileName))
+    return;
 
-  const filePath = `/downloads/${fileName}`;
+  const filePath = `./downloads/${fileName}`;
   const link = document.createElement("a");
   link.href = filePath;
   link.download = fileName;
