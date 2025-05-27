@@ -579,3 +579,49 @@ function handleSwipe() {
 
 // Initialize
 loadProjects();
+
+// backend connect javascript code
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector(".contact-form");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const name = document
+      .querySelector('input[placeholder="Name"]')
+      .value.trim();
+    const email = document
+      .querySelector('input[placeholder="Email"]')
+      .value.trim();
+    const message = document
+      .querySelector('textarea[placeholder="Message"]')
+      .value.trim();
+
+    // Frontend validation
+    if (!name || !email || !message) {
+      alert("All fields are required. Please complete the form.");
+      return;
+    }
+
+    try {
+      const response = await fetch("http://localhost:5000/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      const result = await response.json();
+      if (response.ok) {
+        alert("Thank you! Your message has been successfully sent.");
+        form.reset(); // Clear form after successful submission
+      } else {
+        alert("Oops! Something went wrong. Please try again later.");
+      }
+    } catch (error) {
+      console.error("Fetch error:", error);
+      alert("Server error. Please try again later.");
+    }
+  });
+});
