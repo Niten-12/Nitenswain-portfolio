@@ -621,7 +621,9 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     } catch (error) {
       console.error("Fetch error:", error);
-      alert("Server error. Please try again later.");
+      alert(
+        "Our message service is temporarily unavailable. You can always reach out via the given email while our developer works to resolve the issue."
+      );
     }
   });
 });
