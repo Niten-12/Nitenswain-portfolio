@@ -366,15 +366,15 @@ let cards = [];
 const sampleProjects = [
   {
     id: 1,
-    name: "Task Manager",
+    name: "Photography",
     stack: "Vue.js, Firebase",
     mediaType: "images",
-    mediaUrl: "https://via.placeholder.com/600x400/667eea/ffffff?text=Task+App",
+    mediaUrl: "https://satyaphotography.vercel.app/",
     projectUrl: "#",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "Sports Club",
     stack: "React, Node.js",
     mediaType: "images",
     mediaUrl:
@@ -383,7 +383,7 @@ const sampleProjects = [
   },
   {
     id: 3,
-    name: "Hospital management system",
+    name: "Developer portal",
     stack: "React, php",
     mediaType: "images",
     mediaUrl:
